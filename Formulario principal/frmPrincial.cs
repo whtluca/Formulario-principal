@@ -24,7 +24,25 @@ namespace Formulario_principal
 
         private void produtosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmProdutos p 
+            frmProdutos p = new frmProdutos();
+            p.ShowDialog();
+        }
+
+        private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmClientes c = new frmClientes();
+            c.ShowDialog();
+        }
+
+        private void categoriasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCategorias ca = new frmCategorias();
+            ca.ShowDialog();
         }
     }
 }
